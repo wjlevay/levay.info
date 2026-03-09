@@ -1,0 +1,6 @@
+ErrorDocument 404 /404.html
+
+# Keep direct access to the custom 404 page working.
+<Files "404.html">
+  Require all granted
+</Files>
